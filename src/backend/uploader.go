@@ -15,7 +15,6 @@ func main() {
 	key := aws.String("object")
 
 	s3Config := &aws.Config{
-		Credentials:      credentials.NewStaticCredentials("AKIAR5VZN2ZUCFNKLY6P", "pdj73wjNh+rmfbRIb3+EGLBYMaQ3q6pkL6J3nqZb", ""),
 		Endpoint:         aws.String("https://s3.mycompany.com"),
 		Region:           aws.String("us-east-1"),
 		S3ForcePathStyle: aws.Bool(true),
